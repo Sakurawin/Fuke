@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D 傅科摆演示</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+      <section id="info-panel" aria-label="Simulation information">
+        <p class="eyebrow">Foucault Pendulum</p>
+        <h1>3D 傅科摆演示</h1>
+        <p>调整绳长、物重、纬度、重力、阻尼和初始角度，观察摆动平面随地球自转缓慢进动。</p>
+        <dl>
+          <div><dt>周期估计</dt><dd id="period-value">-</dd></div>
+          <div><dt>进动角速度</dt><dd id="precession-value">-</dd></div>
+          <div><dt>物理时间</dt><dd id="time-value">-</dd></div>
+        </dl>
+      </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

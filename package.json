@@ -1,0 +1,19 @@
+{
+  "name": "foucault-pendulum-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lil-gui": "latest",
+    "three": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "vitest": "latest"
+  }
+}
